@@ -13,8 +13,7 @@ Bu listede;
 * Disk dosyası adı, **- sd\* / nvme\* / ... -**
 * Tipi, - **0 / 1** -
 * Boyutu, - **size** -
-* Bağlanma noktası </br>
-bilgileri bulunur.
+* Bağlanma noktası bilgileri bulunur.
 
 </br>
 
@@ -45,7 +44,7 @@ Linux sistemler, diskleri adlandırmak için genellikle SCSI (Small Computer Sys
 
 Daha yeni sürümlerde NVMe (Non-Volatile Memory Express) arabirimli diskler de kullanılmaya başladı. NVMe diskler genellikle "nvmeXnY" olarak adlandırılır, burada "X" bir sayıdır ve sistemin kaçıncı NVMe arabirimli diski olduğunu belirtir. "nY" kısmı ise, NVMe diskteki parçaları (partition) belirler.
 
-Disklerin adlandırılması, disklerin bağlı olduğu arabirimlerin sıralamasına ve disklerin sisteme hangi sırayla bağlandığına bağlı olarak değişebilir. Bu nedenle, disklerin adlandırılması sisteme göre değişkenlik gösterebilir.
+Disklerin adlandırılması, disklerin bağlı olduğu ara birimlerin sıralamasına ve disklerin sisteme hangi sırayla bağlandığına bağlı olarak değişebilir. Bu nedenle, disklerin adlandırılması sisteme göre değişkenlik gösterebilir.
 
 
 ---
@@ -84,7 +83,7 @@ Filesystem     1K-blocks      Used Available Use% Mounted on
 
 >Bu çıktıda disk dosyalarımız / bölümlerimiz **"/dev"** altında olup diskin bağlı olduğu veri yoluna göre -yuva- / türe göre isimlendirilirler. Bu isimlendirmelere **lsblk**, **blkid** gibi konularda değineceğiz.
 
-Yukarıdaki çıktıda sütunlar şu şelikdedir.
+Yukarıdaki çıktıda sütunlar şu şekildedir.
 <br>
 |||||||
 |:--:|:--:|:--:|:--:|:--:|:--:|
